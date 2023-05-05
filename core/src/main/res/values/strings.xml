@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="image_item">image item</string>
+    <string name="retry">Retry</string>
+    <string name="empty_illustration">Empty illustration</string>
+    <string name="no_data_title">Oops no data found!</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="close">Close</string>
+</resources>

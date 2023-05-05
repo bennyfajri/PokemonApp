@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="button_text_style12" parent="text_semi_bold12">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+    <style name="button_text_style14" parent="button_text_style12">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="button_text_style16" parent="button_text_style12">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="button_text_style18" parent="button_text_style12">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+    </style>
+
+    <style name="text_size">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <!--    Text Bold       -->
+    <style name="text_bold10" parent="text_size">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="text_bold12" parent="text_bold10">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_bold14" parent="text_bold10">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="text_bold16" parent="text_bold10">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="text_bold18" parent="text_bold10">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="text_bold20" parent="text_bold10">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="text_bold22" parent="text_bold10">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="text_bold24" parent="text_bold10">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="text_bold28" parent="text_bold10">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="text_bold32" parent="text_bold10">
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="text_bold36" parent="text_bold10">
+        <item name="android:textSize">36sp</item>
+    </style>
+
+
+    <!--    Text Semi Bold   -->
+    <style name="text_semi_bold10" parent="text_size">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="text_semi_bold12" parent="text_semi_bold10">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_semi_bold13" parent="text_semi_bold12">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="text_semi_bold14" parent="text_semi_bold12">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="text_semi_bold16" parent="text_semi_bold14">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="text_semi_bold18" parent="text_semi_bold14">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="text_semi_bold20" parent="text_semi_bold14">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="text_semi_bold22" parent="text_semi_bold14">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="text_semi_bold24" parent="text_semi_bold14">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="text_semi_bold28" parent="text_semi_bold14">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+
+    <!--    Text Regular        -->
+    <style name="text_regular10" parent="text_size">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="text_regular12" parent="text_regular10">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_regular13" parent="text_regular10">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="text_regular14" parent="text_regular10">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="text_regular16" parent="text_regular10">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="text_regular18" parent="text_regular10">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="text_regular20" parent="text_regular10">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="text_regular22" parent="text_regular10">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="text_regular24" parent="text_regular10">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="text_regular30" parent="text_regular10">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="text_rounded_corner" parent="text_regular14">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@drawable/rounded_text_view</item>
+    </style>
+
+    <style name="input_layout_style" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+    </style>
+
+    <style name="input_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

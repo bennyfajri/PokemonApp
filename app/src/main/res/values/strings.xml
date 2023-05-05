@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PokemonApp</string>
+    <string name="pok_mon">Pokémon</string>
+    <string name="my_pok_mon">My Pokémon</string>
+    <string name="retry">Retry</string>
+    <string name="back">back</string>
+    <string name="pokemon_image">Pokemon image</string>
+    <string name="moves">Moves</string>
+    <string name="rename">Rename</string>
+    <string name="release">Release</string>
+    <string name="menu">Menu</string>
+    <string name="pokemon_nickname">Pokemon nickname</string>
+    <string name="save">Save</string>
+    <string name="success_title">Yeayy</string>
+    <string name="fail_title">Ouch</string>
+    <string name="success_message">You catched a pokémon!</string>
+    <string name="fail_message">Don`t be sad, just try again!</string>
+    <string name="must_not_empty">Must not empty</string>
+    <string name="attention">Attention</string>
+    <string name="release_message">Do you want to release pokemon?</string>
+    <string name="finish">finish</string>
+</resources>

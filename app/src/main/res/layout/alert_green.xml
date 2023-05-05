@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="16dp"
+    android:layout_margin="16dp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/holo_green_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/text_semi_bold20"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/black_white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            tools:text="@tools:sample/lorem" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            style="@style/text_regular16"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:textColor="@color/black_white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title"
+            tools:text="@tools:sample/lorem" />
+
+        <TextView
+            android:id="@+id/btn_positive"
+            style="@style/text_bold16"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/save"
+            android:textColor="@android:color/holo_green_dark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/il_name" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/il_name"
+            style="@style/input_layout_style"
+            android:layout_marginTop="32dp"
+            android:hint="@string/pokemon_nickname"
+            app:layout_constraintEnd_toEndOf="@+id/tv_message"
+            app:layout_constraintStart_toStartOf="@+id/tv_message"
+            app:layout_constraintTop_toBottomOf="@+id/tv_message">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_name"
+                style="@style/input_edit_text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
